@@ -53,7 +53,7 @@ function callback(response2){
     
     //add geojson
     //add style
-    L.geoJson(response2, {style: style}).addTo(map);
+    L.geoJSON(response2, {style: style}).addTo(map);
     }
     
 window.onload = jsAjax();
