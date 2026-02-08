@@ -39,6 +39,7 @@ function conversion(response){
   return response.json();
 }
 function callback(response2){
+    alert("Leaflet loaded");
     //tasks using the data go here
     console.log(response2);
     //added tasks
